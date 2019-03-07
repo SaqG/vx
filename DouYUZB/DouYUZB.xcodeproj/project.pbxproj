@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA14371C223111FE00A01EDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14371B223111FE00A01EDB /* Images.xcassets */; };
 		DAF87A30222E7C2E0049C047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF87A2F222E7C2E0049C047 /* AppDelegate.swift */; };
-		DAF87A32222E7C2E0049C047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF87A31222E7C2E0049C047 /* ViewController.swift */; };
 		DAF87A35222E7C2E0049C047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF87A33222E7C2E0049C047 /* Main.storyboard */; };
 		DAF87A37222E7C2F0049C047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF87A36222E7C2F0049C047 /* Assets.xcassets */; };
 		DAF87A3A222E7C2F0049C047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF87A38222E7C2F0049C047 /* LaunchScreen.storyboard */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA14371B223111FE00A01EDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DAF87A2C222E7C2E0049C047 /* DouYUZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYUZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF87A2F222E7C2E0049C047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAF87A31222E7C2E0049C047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAF87A34222E7C2E0049C047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAF87A36222E7C2F0049C047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF87A39222E7C2F0049C047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +74,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA14371D223119C700A01EDB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA14371F223119C700A01EDB /* Tools */,
+				DA143723223119C700A01EDB /* Main */,
+				DA14371E223119C700A01EDB /* Home */,
+				DA143722223119C700A01EDB /* Live */,
+				DA143720223119C700A01EDB /* Follow */,
+				DA143721223119C700A01EDB /* Me */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DA14371E223119C700A01EDB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA14371F223119C700A01EDB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DA143720223119C700A01EDB /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		DA143721223119C700A01EDB /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		DA143722223119C700A01EDB /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		DA143723223119C700A01EDB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		DAF87A23222E7C2E0049C047 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +152,13 @@
 		DAF87A2E222E7C2E0049C047 /* DouYUZB */ = {
 			isa = PBXGroup;
 			children = (
+				DA14371D223119C700A01EDB /* Classes */,
 				DAF87A2F222E7C2E0049C047 /* AppDelegate.swift */,
-				DAF87A31222E7C2E0049C047 /* ViewController.swift */,
 				DAF87A33222E7C2E0049C047 /* Main.storyboard */,
 				DAF87A36222E7C2F0049C047 /* Assets.xcassets */,
 				DAF87A38222E7C2F0049C047 /* LaunchScreen.storyboard */,
 				DAF87A3B222E7C2F0049C047 /* Info.plist */,
+				DA14371B223111FE00A01EDB /* Images.xcassets */,
 			);
 			path = DouYUZB;
 			sourceTree = "<group>";
@@ -230,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF87A3A222E7C2F0049C047 /* LaunchScreen.storyboard in Resources */,
+				DA14371C223111FE00A01EDB /* Images.xcassets in Resources */,
 				DAF87A37222E7C2F0049C047 /* Assets.xcassets in Resources */,
 				DAF87A35222E7C2E0049C047 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAF87A32222E7C2E0049C047 /* ViewController.swift in Sources */,
 				DAF87A30222E7C2E0049C047 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,9 +488,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TTM7NR3TSA;
 				INFOPLIST_FILE = DouYUZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SAQ.DouYUZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,9 +508,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TTM7NR3TSA;
 				INFOPLIST_FILE = DouYUZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SAQ.DouYUZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
